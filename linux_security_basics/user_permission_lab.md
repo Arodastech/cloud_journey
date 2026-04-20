@@ -28,3 +28,42 @@ Understanding users and permissions is critical for preventing unauthorized acce
 4. Assign a password
 5. Switch users
 6. Modify file permissions
+
+## Lab Results 
+
+### Step 1 – Check current user
+
+Command:
+whoami
+
+Output:
+anthony
+
+Explanation:
+This command shows which user is currently logged into the Linux system.
+
+---
+
+### Step 2 – Check user ID and groups
+
+Command:
+id
+
+Output:
+uid=1000(anthony) gid=1000(anthony) groups=1000(anthony),27(sudo)
+
+Explanation:
+This command displays the user ID, group ID, and any groups the user belongs to.
+
+---
+
+### Step 3 – View user groups
+
+Command:
+groups
+
+Output:
+anthony sudo
+
+Explanation:
+This command shows which permission groups the current user belongs to.
