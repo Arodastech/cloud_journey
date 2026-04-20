@@ -1,0 +1,18 @@
+Linux Setup Notes 
+
+Today I installed and configured my development enviroment for clou
+
+Tools installed:
+-Git
+-Ubuntu (WSL)
+-Visual Studio Code 
+-GitHub 
+
+I created my first Linux project directory called "cloud_journey"
+
+Basic Linux commands learned: 
+-pwd
+-ls
+-cd 
+-mkdir
+-touch
